@@ -1,0 +1,66 @@
+.container
+{
+    position: absolute;
+    top:25%;
+    display: flex;
+    flex-direction: row;
+    gap:4em;
+    left:25%;
+    flex-wrap:wrap;
+    width: 60%;
+   
+}
+
+.container > button
+{
+    background-color: orange;
+    color: black;
+    padding:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+cursor: pointer;
+height: 50px;
+border: orange solid 1px;
+font-size: large;
+}
+
+#desc1,#desc2,#desc3,#desc4
+{
+    position: absolute;
+    margin-top:20%;
+    color: white;
+    width: 70%;
+    left:10%;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    align-items: center;
+    display: none;
+    
+}
+
+
+
+.title
+{
+    color: orange;
+    text-align: center;
+}
+
+p{
+    color: white;
+    position:relative;
+   top:20px;
+}
+
+.present
+{
+    font-weight: bold;
+}
+button:hover
+{
+    color: orange;
+    background-color: black;
+    border-color: orange;
+    border-width: 2px;
+border-style: solid;
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    </style>    
+    <link rel="stylesheet" href="common1.css">
+    <link rel="stylesheet" href="programmes.css">
+
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <title>King1</title>
+    </head>
+    <body class="black">
+        <nav class="menubar">
+            <div class="logo">
+                <img src="Sir's Logo Transp.png" height="80px"></div>
+            
+                <a class="link "  href="#">Home</a>
+                <a class="link current" href="D:\WebDevWork\Gym Website\Products\programmes.html">Programmes</a>
+                <a  class="link"href="AboutUs.html">About Us</a>
+                <a  class="link" href="signup.html">SignUp</a>
+            </nav>
+
+        <div class="container">
+            <button onmouseover=hover1() onmouseout=deactivate1() onclick=myFunction1() id="b1">Fat Loss</button>
+            <button  onmouseover=hover2() onmouseout=deactivate2() onclick=myFunction2() id="b2">Strength Training</button>
+            <button  onmouseover=hover3() onmouseout=deactivate3() onclick=myFunction3() id="b3">Muscle Gain</button>
+            <button  onmouseover=hover4() onmouseout=deactivate4() onclick=myFunction4() id="b4">Nutrition</button>
+        </div>
+
+        <div id="desc1">
+            <h1 class="title">Fat Loss</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, fugit inventore. Aspernatur temporibus assumenda porro, nemo eligendi eos at omnis quibusdam officiis illum libero, blanditiis qui, odio facilis obcaecati! Perspiciatis.</p>
+        </div>
+
+        <div id="desc2">
+          <h1 class="title">Nutrition</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, fugit inventore. Aspernatur temporibus assumenda porro, nemo eligendi eos at omnis quibusdam officiis illum libero, blanditiis qui, odio facilis obcaecati! Perspiciatis.</p>
+      </div>
+
+      <div id="desc3">
+        <h1 class="title">Muscle Gain</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, fugit inventore. Aspernatur temporibus assumenda porro, nemo eligendi eos at omnis quibusdam officiis illum libero, blanditiis qui, odio facilis obcaecati! Perspiciatis.</p>
+    </div>
+
+    <div id="desc4">
+      <h1 class="title">Strength Training</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, fugit inventore. Aspernatur temporibus assumenda porro, nemo eligendi eos at omnis quibusdam officiis illum libero, blanditiis qui, odio facilis obcaecati! Perspiciatis.</p>
+  </div>
+
+        <script>
+            var k,l,m,n;
+            function myFunction1() {
+              var x = document.getElementById("desc1")
+              x.style.display = "block";
+              var y = document.getElementById("desc2")
+              y.style.display = "none";
+              var z = document.getElementById("desc3")
+              z.style.display = "none";
+              var w = document.getElementById("desc4")
+              w.style.display = "none";
+              var b=document.getElementById("b1")
+              b.style.backgroundColor="black";
+             b.style.borderColor="orange"
+              b.style.borderWidth="2px";
+             b.style.borderStyle="solid";
+             b.style.color="orange";
+            k=1;
+             var b=document.getElementById("b2")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+             l=0;
+
+             var b=document.getElementById("b3")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+             m=0;
+
+             var b=document.getElementById("b4")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+            n=0;
+            
+            }
+            function myFunction2() {
+              var x = document.getElementById("desc2")
+              x.style.display = "block";
+              
+              var y = document.getElementById("desc1")
+              y.style.display = "none";
+              var z = document.getElementById("desc3")
+              z.style.display = "none";
+              var w = document.getElementById("desc4")
+              w.style.display = "none";
+              
+              var b=document.getElementById("b2")
+              b.style.backgroundColor="black";
+             b.style.borderColor="orange"
+              b.style.borderWidth="2px";
+             b.style.borderStyle="solid";
+             b.style.color="orange";
+                l=1;
+             var b=document.getElementById("b1")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+                k=0;
+             var b=document.getElementById("b3")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+                m=0;
+             var b=document.getElementById("b4")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+           n=0;
+           console.log(k)
+            }
+            function myFunction3() {
+              var x = document.getElementById("desc3")
+              
+                x.style.display = "block";
+              var y = document.getElementById("desc1")
+              y.style.display = "none";
+              var z = document.getElementById("desc2")
+              z.style.display = "none";
+              var w = document.getElementById("desc4")
+              w.style.display = "none";
+            
+              var b=document.getElementById("b3")
+              b.style.backgroundColor="black";
+             b.style.borderColor="orange"
+              b.style.borderWidth="2px";
+             b.style.borderStyle="solid";
+             b.style.color="orange";
+             m=1;
+
+             var b=document.getElementById("b1")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+                k=0;
+             var b=document.getElementById("b2")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+                l=0;
+             var b=document.getElementById("b4")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+            n=0;
+            }
+            
+              
+              function myFunction4() {
+              var x = document.getElementById("desc4")
+              
+                x.style.display = "block";
+              var y = document.getElementById("desc1")
+              y.style.display = "none";
+              var z = document.getElementById("desc2")
+              z.style.display = "none";
+              var w = document.getElementById("desc3")
+              w.style.display = "none";
+              var b=document.getElementById("b4")
+              b.style.backgroundColor="black";
+             b.style.borderColor="orange"
+              b.style.borderWidth="2px";
+             b.style.borderStyle="solid";
+             b.style.color="orange";
+                n=1;
+             var b=document.getElementById("b1")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+                k=0;
+             var b=document.getElementById("b3")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+                l=0;
+             var b=document.getElementById("b2")
+              b.style.backgroundColor="orange";
+             b.style.color="black";
+            m=0;
+            }
+
+            function hover1() {
+                var b=document.getElementById("b1")
+               if(k==0)
+               {
+                b.style.backgroundColor="black";
+             b.style.borderColor="orange"
+              b.style.borderWidth="2px";
+             b.style.borderStyle="solid";
+             b.style.color="orange";
+
+               }
+                
+            }
+            function hover2() {
+                var b=document.getElementById("b2")
+               if(l==0)
+               {
+                b.style.backgroundColor="black";
+             b.style.borderColor="orange"
+              b.style.borderWidth="2px";
+             b.style.borderStyle="solid";
+             b.style.color="orange";
+
+               }
+                
+            }
+            function hover3() {
+                var b=document.getElementById("b3")
+               if(m==0)
+               {
+                b.style.backgroundColor="black";
+             b.style.borderColor="orange"
+              b.style.borderWidth="2px";
+             b.style.borderStyle="solid";
+             b.style.color="orange";
+
+               }
+                
+            }
+            function hover4() {
+                var b=document.getElementById("b4")
+               if(n==0)
+               {
+                b.style.backgroundColor="black";
+             b.style.borderColor="orange"
+              b.style.borderWidth="2px";
+             b.style.borderStyle="solid";
+             b.style.color="orange";
+
+               }
+                
+            }
+
+            function deactivate1()
+            {
+                var b=document.getElementById("b1");
+                if(k==0)
+                {
+                b.style.backgroundColor="orange";
+             b.style.color="black";
+            }
+        }
+        function deactivate2()
+            {
+                var b=document.getElementById("b2");
+                if(l==0)
+                {
+                b.style.backgroundColor="orange";
+             b.style.color="black";
+            }
+        }
+        function deactivate3()
+            {
+                var b=document.getElementById("b3");
+                if(m==0)
+                {
+                b.style.backgroundColor="orange";
+             b.style.color="black";
+            }
+        }
+        function deactivate4()
+            {
+                var b=document.getElementById("b4");
+                if(n==0)
+                {
+                b.style.backgroundColor="orange";
+             b.style.color="black";
+            }
+        }
+            
+            
+            </script>
+            
+        
+            
+            </body>
+            </html>
+    </body>
+</html>

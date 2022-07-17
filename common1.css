@@ -1,0 +1,121 @@
+html{
+    overflow: scroll;
+}
+.black
+{
+    margin:0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.menubar
+{
+    width: 100%;
+    display:flex;
+    background-color: orange;
+    flex-direction: row;
+
+    gap:30px;
+    position: fixed;
+   align-items: center;
+height:70px;
+font-size: large;
+flex-wrap: wrap;
+place-content: center flex-end;
+}
+.link{
+
+padding-right:1px;
+    margin-right: 20px;
+text-decoration: none;
+font-size: 20px;
+color: black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.link:hover
+{
+    background-color: black;
+    color: orange;
+    border-radius: 5px;
+}
+
+
+ .indexmain{
+    background: url(homebg1.jpg);
+   background-size: cover;
+   background-position: 30% 40%;
+    background-repeat: no-repeat;
+    color: white;
+    width:100vw;
+    justify-content:center;
+    align-items:center;
+    display: flex;
+  top:25%;
+    position: absolute;
+    height: 60%;
+ }
+.socialmedia{
+background-color: transparent;
+top:90%;
+position: absolute;
+translate: 0px,-60px;
+display: grid;
+grid-template-rows: 1fr 1fr;
+grid-gap:2em;
+left:70%;
+color:white;
+align-self: flex-start;
+
+}
+.socialmediaicons
+{
+background-color: orange;
+border-radius: 6px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+justify-content: center;
+padding-right: -1px;
+padding-left: 3px;
+align-content: center;
+position: absolute;
+margin-top: 5px;
+
+margin-left:1em;
+}
+.contact
+{
+    text-align: center;
+   margin-bottom: 5px;
+    
+   
+    align-self: center;
+    grid-column: 1;
+}
+.email
+{
+    
+    text-align: right;
+    position: relative;
+    margin-top: 5px;
+    justify-self: end;
+}
+.footer
+{
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+}
+
+.current
+{
+    font-weight: bolder ;
+}
+
+.logo
+{
+    position: fixed;
+    margin-right:90%;
+
+    align-self: flex-end;
+}
+
